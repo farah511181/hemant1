@@ -39,8 +39,9 @@ export default function FeaturedFilms() {
                 <h3 className="font-display text-2xl md:text-4xl text-ivory text-center">
                  Couple Names: Aishwarya & Sanket
 Theme: Court Marriage
+                  <br/>
 Video Style: Cinematic Storytelling
-
+<br/>
 A heartfelt storytelling film capturing Aishwarya & Sanket’s court marriage journey — a beautiful beginning of their forever, told through real moments and emotions.
                 </h3>
               </div>
