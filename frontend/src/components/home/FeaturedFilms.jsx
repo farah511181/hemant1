@@ -37,7 +37,11 @@ export default function FeaturedFilms() {
             {index === 1 && (
               <div className="w-full flex justify-center items-center px-6 py-4">
                 <h3 className="font-display text-2xl md:text-4xl text-ivory text-center">
-                  Wedding Film 02
+                 Couple Names: Aishwarya & Sanket
+Theme: Court Marriage
+Video Style: Cinematic Storytelling
+
+A heartfelt storytelling film capturing Aishwarya & Sanket’s court marriage journey — a beautiful beginning of their forever, told through real moments and emotions.
                 </h3>
               </div>
             )}
