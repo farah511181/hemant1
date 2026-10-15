@@ -38,6 +38,7 @@ export default function FeaturedFilms() {
               <div className="w-full flex justify-center items-center px-6 py-4">
                 <h3 className="font-display text-2xl md:text-4xl text-ivory text-center">
                  Couple Names: Aishwarya & Sanket
+                  <br/>
 Theme: Court Marriage
                   <br/>
 Video Style: Cinematic Storytelling
