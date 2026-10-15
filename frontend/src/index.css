@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Manrope", system-ui, -apple-system, sans-serif;
+  --font-display: "Playfair Display", Georgia, serif;
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-mono: ui-monospace, monospace;
+
+  /* Luxury warm neutral palette */
+  --color-ivory: #faf7f2;
+  --color-nude: #f5eee5;
+  --color-sand: #eee2d4;
+  --color-cocoa: #8a6a5a;
+  --color-rich: #755848;
+  --color-espresso: #4e392f;
+  --color-taupe: #7b6559;
+  --color-mocha: #a07a68;
+  --color-walnut: #876452;
+  --color-charcoal: #2b1e18;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Desktop-only compaction */
+@media (min-width: 1024px) {
+  html {
+    font-size: 90%;
+  }
+}
+
+body {
+  margin: 0;
+  background-color: #faf7f2;
+  color: #7b6559;
+  font-family: "Manrope", system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.font-display {
+  font-family: "Playfair Display", Georgia, serif;
+  font-weight: 300;
+  letter-spacing: -0.01em;
+}
+
+.font-serif {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-weight: 300;
+}
+
+.font-sans {
+  font-family: "Manrope", system-ui, sans-serif;
+}
+
+::selection {
+  background-color: #a07a68;
+  color: #faf7f2;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
